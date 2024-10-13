@@ -8,6 +8,8 @@ int main() {
     cin >> a >> b;
     
     int c = a+b;
+    cout << fixed;
+    cout.precision(1);
 
     cout << c << " " << (double)c/2;
     return 0;
