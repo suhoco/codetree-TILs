@@ -7,14 +7,14 @@ int main() {
 
     cin >> n;
 
-    if (n < 0)
-        cout << "ice";
+    if (n < 0) {
+        cout << "ice";}
 
-    else if (0 <= n < 100)
-        cout << "water";
+    else if (0 <= n && n < 100) {
+        cout << "water";}
 
-    else
-        cout << "vapor";
+    else {
+        cout << "vapor";}
         
     return 0;
 }
