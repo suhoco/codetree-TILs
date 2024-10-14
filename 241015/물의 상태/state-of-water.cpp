@@ -11,10 +11,10 @@ int main() {
         cout << "ice";
 
     else if (0 <= n < 100)
-        cout << "vapor";
+        cout << "water";
 
     else
-        cout << "water";
+        cout << "vapor";
         
     return 0;
 }
