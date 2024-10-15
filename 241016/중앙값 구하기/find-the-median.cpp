@@ -7,15 +7,11 @@ int main() {
     
     cin >> a >> b >> c;
 
-    if (a > b) {
-        if (a < c)
-            cout << a;
-        else if (a > c) {
-            if (b > c)
-                cout << b;
-            else if (b < c)
-                cout << c;
-        }
-    }
+    if ((b < a && a < c) || (c < a && a < b))
+        cout << a;
+    else if ((b < c) || (b > c))
+        cout << b;
+    else
+        cout << c;
     return 0;
 }
