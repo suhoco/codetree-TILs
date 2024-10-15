@@ -9,7 +9,7 @@ int main() {
     cin >> a_age >> a_sex;
     cin >> b_age >> b_sex;
 
-    cout << (a_age >= 19 && a_sex == 'M') || (b_age >= 19 && b_sex == 'M');
+    cout << ((a_age >= 19 && a_sex == 'M') || (b_age >= 19 && b_sex == 'M'));
 
     return 0;
 }
