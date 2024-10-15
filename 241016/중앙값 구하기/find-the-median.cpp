@@ -11,9 +11,9 @@ int main() {
         if (a < c)
             cout << a;
         else if (a > c) {
-            if ( b > c)
+            if (b > c)
                 cout << b;
-            else
+            else if (b < c)
                 cout << c;
         }
     }
