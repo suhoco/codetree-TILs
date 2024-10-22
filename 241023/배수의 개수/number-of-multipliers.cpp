@@ -9,15 +9,11 @@ int main() {
     for (int i = 0; i < 10; i++) {
         
         cin >> n;
-        if (n % 3 == 0 && n % 5 == 0) {
-            cnt_3++;
-            cnt_5++;
-        }
 
-        else if (n % 3 == 0)
+        if (n % 3 == 0)
             cnt_3++;
         
-        else if (n % 5 == 0)
+        if (n % 5 == 0)
             cnt_5++;
     }
 
