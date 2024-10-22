@@ -8,6 +8,6 @@ int main() {
     cin >> n;
 
     for (int i = 0; i < n; i++)
-        cout << "LeeberosCode" << endl;
+        cout << "LeebrosCode" << endl;
     return 0;
 }
