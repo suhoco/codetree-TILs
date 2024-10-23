@@ -13,9 +13,6 @@ int main() {
         if (i % 12 == 0)
             cnt_toilet++;
         
-        else if (i % 6 == 0)
-            cnt_hall++;
-
         else if (i % 3 == 0)
             cnt_hall++;
 
